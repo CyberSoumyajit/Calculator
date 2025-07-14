@@ -117,7 +117,7 @@ body {
 }
 
 /* Responsive Tweaks */
-@media (max-width: 360px), (max-height: 500px) {
+@media (max-width: 480px), (max-height: 500px) {
   .display {
     font-size: 2rem;
     padding: 20px;
@@ -130,6 +130,7 @@ body {
 
   .calculator {
     padding: 15px;
+    max-width: 90%;
   }
 }
 
